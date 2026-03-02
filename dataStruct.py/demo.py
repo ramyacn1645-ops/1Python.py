@@ -1,0 +1,13 @@
+side_a =int(input("enter value of side_a:"))
+side_b =int(input("enter value of side_b:"))
+side_c =int(input("enter value of side_c:"))
+
+if(side_a==side_b and side_b==side_c):
+    print("it is an equilateral triangle")
+elif(side_a==side_b or side_b==side_c or side_a==side_c):
+    print("it is an isosceles triangle")
+else:
+    print("it is a scalene triangle")
+
+
+
