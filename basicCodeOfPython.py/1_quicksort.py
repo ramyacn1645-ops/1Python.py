@@ -5,4 +5,4 @@ def quicksort(cards):
     pivot = cards[0]
     less = [i for i in cards if i <= pivot]
     greater = [i for i  in cards if i > pivot ]
-    return quicksort[less] + pivot + quicksort[greater
+    return quicksort[less] + pivot + quicksort[greater]
