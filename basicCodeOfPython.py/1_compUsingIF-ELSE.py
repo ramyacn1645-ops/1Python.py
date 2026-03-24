@@ -30,7 +30,7 @@ print(f"Enter {num} employees salary")
 for i in range(num):
     salary.append(float(input("Enter salary: ")))
 print(salary)
-for i in salary:
+for i in salary: # 'in' operator is user not used as a loop
     if salary>= 50000:
         salary = salary + salary*0.2
     else:
