@@ -35,5 +35,5 @@ for i in salary:
         salary = salary + salary*0.2
     else:
         salary = salary + salary*0.3
-print(" updated salary is: ", salary
+print(" updated salary is: ", salary)
     
