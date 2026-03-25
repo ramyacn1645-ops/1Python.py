@@ -1,3 +1,4 @@
+import math
 num = int(input("how many elements are in the list?\n"))
 number =[]
 
@@ -21,6 +22,12 @@ mean = sum/num
 print("mean is: ",mean)
 
 for i in range(num):
-      sum1 = sum1 + 
+      sum1 = sum1 + pow((number[i]-mean),2)
+       
+
+variance = sum1/num
+print("variance is: ",variance)
+sd= sqrt(variance)
+print("The standard deviation is: ",sd
   
      
