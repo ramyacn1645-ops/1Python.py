@@ -1,6 +1,7 @@
-unique_colors = {"Red", "purple","pink"} 
+colors = {"Red", "purple","pink","pink","Red"} 
 numbers = [1,2,3,3,4,5,6,6]
 unique_numbers = set(numbers)
+unique_colors= set(colors)
 print(unique_colors)
 print(unique_numbers)
 
