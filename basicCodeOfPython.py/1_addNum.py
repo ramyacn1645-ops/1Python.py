@@ -1,3 +1,4 @@
+# to add num using while loop
 Num = int(input("Enter a number:"))
 sum = 0
 i = 1
