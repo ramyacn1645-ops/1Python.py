@@ -1,4 +1,5 @@
 def area(width, length):
+    # function defination 
     return width*length
 
 width = int(input("Enter the width of the rectangle:"))
