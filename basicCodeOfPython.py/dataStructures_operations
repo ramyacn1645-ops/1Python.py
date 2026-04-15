@@ -19,3 +19,7 @@ student = {
     "age": 20,
     "course": "Python"
 }
+
+# adding and updating dictionary values
+student["age"] = 21            # Update
+student["college"] = "XYZ"     # Add new key
