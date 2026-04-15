@@ -1,3 +1,4 @@
+
 # list and it's operatrions
 
 #create a list 
@@ -26,3 +27,7 @@ student["college"] = "XYZ"     # Add new key
 # removing elements
 student.pop("age")        # Removes age
 del student["course"]     # Deletes course
+
+# looping through dictionary 
+for key in student:
+    print(key, student[key])
