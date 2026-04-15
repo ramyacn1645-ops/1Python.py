@@ -23,3 +23,6 @@ student = {
 # adding and updating dictionary values
 student["age"] = 21            # Update
 student["college"] = "XYZ"     # Add new key
+# removing elements
+student.pop("age")        # Removes age
+del student["course"]     # Deletes course
