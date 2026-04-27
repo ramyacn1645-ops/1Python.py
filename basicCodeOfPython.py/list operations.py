@@ -1,5 +1,5 @@
 # adding element to a list
-list = [1,2,34,abc,4]
+list = [1,2,34,"abc",4]
 list.append(55)
 print(list)
 
@@ -18,7 +18,7 @@ print(list)
 list1 =[ 1,2,3,4,5]
 list2 = list1.copy() # it just copy the elements in the list
 
-id(list1)l
+id(list1)
 print(list1)
 id(list2)
 # ID's are different for both the lists as the 2nd list only copy the elements of 1st list
@@ -28,7 +28,7 @@ print(list2)
 list1 =[ 1,2,3,4,5]
 list2 = list1 # it copy the entire list1 i.e., it also points to the same memory location
 
-id(list1)l
+id(list1)
 print(list1)
 id(list2)
 # ID's  of both the lists are same as the list2 copy tne list1 itself not just their elements 

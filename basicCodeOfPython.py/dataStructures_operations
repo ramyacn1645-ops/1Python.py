@@ -34,3 +34,21 @@ for key in student:
 # another way of looping
 for key, value in student.items():
     print(key, value)
+
+
+
+# tuples and it's operations
+# Empty tuple
+t1 = ()
+
+# Tuple with elements
+t2 = (1, 2, 3)
+
+# Without parentheses
+t3 = 4, 5, 6
+
+# Mixed data types
+t4 = (1, "hello", 3.5)
+
+# Single element tuple (comma is important!)
+t5 = (10,)
