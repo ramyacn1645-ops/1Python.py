@@ -53,7 +53,12 @@ t4 = (1, "hello", 3.5)
 # Single element tuple (comma is important!)
 t5 = (10,)
 # strings and it's operations
+text = "python programming"
 
+print(text.upper())   # PYTHON PROGRAMMING
+print(text.lower())   # python programming
+print(text.title())   # Python Programming
+print(text.capitalize())  # Python programming
 
 text = "  hello  "
 
