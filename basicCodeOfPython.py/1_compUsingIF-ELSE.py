@@ -24,6 +24,7 @@ if(a>b and a>c):
     print(c,"is greater)
 
 # hike the salary based on their current salary 
+
 num = int(input("Enter the number of employee"))
 salary =[]
 print(f"Enter {num} employees salary")
