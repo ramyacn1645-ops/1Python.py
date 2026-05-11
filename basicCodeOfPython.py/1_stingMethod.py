@@ -19,3 +19,9 @@ print(f"Value of pi = {pi:.2f}")       # 2 decimal places
 print(f"{name} is awesome!")
 print("Hello {:>10}".format(name))     # right-align width 10
 print(f"{2**10} = 2^10")               # expression in f-strin
+
+print("A", "B", "C", sep="-")       # A-B-C
+print("Loading", end="...")          # no newline
+print("Done")
+print(f"{"Name":<10} {"Score":>5}")
+print(f"{"Rashna":<10} {95:>5}")
