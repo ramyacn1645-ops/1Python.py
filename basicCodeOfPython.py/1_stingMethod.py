@@ -25,3 +25,11 @@ print("Loading", end="...")          # no newline
 print("Done")
 print(f"{"Name":<10} {"Score":>5}")
 print(f"{"Rashna":<10} {95:>5}")
+
+s = "Hello, World!"
+print(s[0])          # H       (first char)
+print(s[-1])         # !       (last char)
+print(s[0:5])        # Hello   (slicing)
+print(s[7:])         # World!  (from index 7)
+print(s[::-1])       # !dlroW ,olleH  (reverse)
+print(len(s))        # 13
