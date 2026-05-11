@@ -12,3 +12,10 @@ text = "  hello  "
 print(text.strip())    # removes both sides spaces
 print(text.lstrip())   # left side
 print(text.rstrip())   # right side
+
+pi   = 3.14159
+name = "Python"
+print(f"Value of pi = {pi:.2f}")       # 2 decimal places
+print(f"{name} is awesome!")
+print("Hello {:>10}".format(name))     # right-align width 10
+print(f"{2**10} = 2^10")               # expression in f-strin
