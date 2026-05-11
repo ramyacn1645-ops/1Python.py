@@ -33,3 +33,12 @@ print(s[0:5])        # Hello   (slicing)
 print(s[7:])         # World!  (from index 7)
 print(s[::-1])       # !dlroW ,olleH  (reverse)
 print(len(s))        # 13
+
+s = "  python programming  "
+print(s.strip())                    # remove whitespace
+print(s.upper())
+print(s.title())                    # Title Case
+print(s.replace("python", "java"))
+print(s.find("prog"))              # index of substring
+print(",".join(["a","b","c"]))
+print("a,b,c".split(","))
