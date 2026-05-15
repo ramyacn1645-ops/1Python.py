@@ -3,7 +3,6 @@ list = [1,2,34,"abc",4]
 list.append(55)
 print(list)
 
-# removing a element from a list
 list =[2,3,33,44]
 list.remove() # it removes the last element
 print(list)
