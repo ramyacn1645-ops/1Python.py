@@ -4,7 +4,7 @@ list.append(55)
 print(list)
 
 list =[2,3,33,44]
-list.remove() # it removes the last element
+list.remove()
 print(list)
 # removing element from a list using poo operator 
 list=[1,2,3,4,5]
